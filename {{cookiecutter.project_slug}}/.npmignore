@@ -1,0 +1,3 @@
+tsup-out/
+webpack-out/
+{{cookiecutter.project_slug}}/

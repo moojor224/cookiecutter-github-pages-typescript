@@ -1,0 +1,9 @@
+{
+    "project_slug": "my-typescript-site",
+    "site_name": "My TypeScript Site",
+    "repository": "",
+    "description": "A simple TypeScript website",
+    "author": "",
+    "license": ["ISC", "MIT", "Apache-2.0", "BSD-3-Clause"],
+    "version": "0.0.0"
+}
