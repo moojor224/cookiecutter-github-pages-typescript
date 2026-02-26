@@ -1,7 +1,7 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-    entry: ["src/page.tsx"],
+    entry: ["src/page.ts"],
     format: ["esm"],
     dts: false, // Generate declaration file (.d.ts)
     splitting: false,
