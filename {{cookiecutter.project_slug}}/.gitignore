@@ -4,4 +4,4 @@ node_modules
 # Other
 tsup-out/
 webpack-out/
-{{cookiecutter.project_slug}}/
+dist/

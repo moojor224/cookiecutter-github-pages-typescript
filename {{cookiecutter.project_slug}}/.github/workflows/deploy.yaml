@@ -32,7 +32,6 @@ jobs:
 
       - name: Build Site
         run: |
-          pwd
           pnpm i
           pnpm run build
 
@@ -40,7 +39,7 @@ jobs:
         id: deployment
         uses: actions/upload-pages-artifact@v4
         with:
-          path: {{cookiecutter.project_slug}}/
+          path: dist/
   deploy:
     environment:
       name: github-pages
